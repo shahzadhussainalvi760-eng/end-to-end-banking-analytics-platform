@@ -1,0 +1,157 @@
+{
+  "name": "Bankboard Premium Navy",
+  "dataColors": [
+    "#0A2540",
+    "#00D4B2",
+    "#0070F3",
+    "#10B981",
+    "#F5A623",
+    "#EF4444",
+    "#64748B",
+    "#4F46E5"
+  ],
+  "background": "#F8FAFC",
+  "foreground": "#0F172A",
+  "tableAccent": "#0A2540",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false,
+            "color": { "solid": { "color": "#E2E8F0" } },
+            "radius": 8
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "position": "Outer",
+            "preset": "BottomRight",
+            "shadowColor": { "solid": { "color": "#0F172A" } },
+            "transparency": 95,
+            "blur": 10
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": true,
+            "background": { "solid": { "color": "#FFFFFF" } },
+            "iconColor": { "solid": { "color": "#64748B" } }
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12,
+            "fontColor": { "solid": { "color": "#0F172A" } },
+            "alignment": "Left"
+          }
+        ],
+        "outspace": [
+          {
+            "color": { "solid": { "color": "#F1F5F9" } }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 24,
+            "fontColor": { "solid": { "color": "#0A2540" } },
+            "labelBold": true
+          }
+        ],
+        "categoryLabels": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "fontColor": { "solid": { "color": "#64748B" } }
+          }
+        ]
+      }
+    },
+    "multiRowCard": {
+      "*": {
+        "cardTitle": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 10,
+            "fontColor": { "solid": { "color": "#0A2540" } }
+          }
+        ],
+        "cardValues": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 16,
+            "fontColor": { "solid": { "color": "#0F172A" } }
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 10,
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backColor": { "solid": { "color": "#0A2540" } }
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "fontColor": { "solid": { "color": "#0F172A" } }
+          }
+        ],
+        "grid": [
+          {
+            "gridBorder": true,
+            "gridBorderColor": { "solid": { "color": "#E2E8F0" } },
+            "outlineColor": { "solid": { "color": "#0A2540" } },
+            "outlineWidth": 1
+          }
+        ]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 10,
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backColor": { "solid": { "color": "#0A2540" } }
+          }
+        ],
+        "rowHeaders": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 10,
+            "fontColor": { "solid": { "color": "#0A2540" } }
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "fontColor": { "solid": { "color": "#0F172A" } }
+          }
+        ]
+      }
+    }
+  }
+}

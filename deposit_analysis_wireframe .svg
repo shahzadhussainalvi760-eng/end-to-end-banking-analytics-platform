@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0b0f19; }
+      .container { fill: #ffffff; stroke: #1a2035; stroke-width: 4; }
+      .wireframe-box { fill: none; stroke: #1a2035; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .active-tab { fill: #1a2035; rx: 4; }
+      .text-main { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-weight: 600; fill: #1a2035; text-anchor: middle; }
+      .text-tab { font-size: 17px; letter-spacing: 0.3px; text-anchor: start; }
+      .text-tab-active { font-size: 17px; fill: #ffffff; letter-spacing: 0.3px; font-weight: bold; text-anchor: middle; }
+      .text-filter { font-size: 15px; font-weight: 500; }
+      .text-kpi { font-size: 18px; font-weight: 500; }
+      .text-chart { font-size: 18px; font-weight: 500; }
+    </style>
+  </defs>
+
+  <!-- Outer Background Canvas -->
+  <rect width="1200" height="680" class="bg" />
+
+  <!-- Main Rounded Board Container -->
+  <rect x="20" y="20" width="1160" height="640" rx="28" class="container" />
+
+  <!-- HEADER NAVIGATION BAR -->
+  <!-- Navigation Links (Left Aligned) -->
+  <text x="55" y="60" class="text-main text-tab">HOME</text>
+  <text x="145" y="60" class="text-main text-tab">LOAN ANALYSIS</text>
+  
+  <!-- Active Tab: Deposit Analysis (Centered Text inside Tab) -->
+  <rect x="325" y="28" width="205" height="44" class="active-tab" />
+  <text x="427" y="56" class="text-main text-tab-active">DEPOSIT ANALYSIS</text>
+  
+  <text x="565" y="60" class="text-main text-tab">SUMMARY</text>
+
+  <!-- Top Right Utility / Search Outline -->
+  <rect x="675" y="28" width="470" height="44" rx="4" class="wireframe-box" />
+
+  <!-- SLICER / FILTER ROW (Divided into 3 equal Columns - Labels moved to the top-center) -->
+  <rect x="48" y="92" width="1097" height="100" rx="14" class="wireframe-box" />
+  <text x="231" y="127" class="text-main text-filter">Banking Relationship</text>
+  <text x="596" y="127" class="text-main text-filter">Gender</text>
+  <text x="961" y="127" class="text-main text-filter">Institution Advisor</text>
+
+  <!-- GRID LAYOUT BOXES (All titles are precisely centered horizontally & aligned near the top) -->
+  
+  <!-- Column 1 & 2 (Left KPI Matrices) -->
+  <!-- Total Deposit -->
+  <rect x="48" y="212" width="240" height="98" rx="14" class="wireframe-box" />
+  <text x="168" y="247" class="text-main text-kpi">Total Deposit</text>
+
+  <!-- Bank Deposit -->
+  <rect x="304" y="212" width="240" height="98" rx="14" class="wireframe-box" />
+  <text x="424" y="247" class="text-main text-kpi">Bank Deposit</text>
+
+  <!-- Saving Account Amt -->
+  <rect x="48" y="326" width="240" height="98" rx="14" class="wireframe-box" />
+  <text x="168" y="361" class="text-main text-kpi">Saving Account Amt</text>
+
+  <!-- Checking Account Amt -->
+  <rect x="304" y="326" width="240" height="98" rx="14" class="wireframe-box" />
+  <text x="424" y="361" class="text-main text-kpi">Checking Account Amt</text>
+
+  <!-- Column 1 & 2 Bottom: Bank Deposit by Income Band -->
+  <rect x="48" y="440" width="496" height="192" rx="14" class="wireframe-box" />
+  <text x="296" y="475" class="text-main text-chart">Bank Deposit by Income Band</text>
+
+  <!-- Column 3 Top: Bank Deposit by BR -->
+  <rect x="560" y="212" width="282" height="212" rx="14" class="wireframe-box" />
+  <text x="701" y="247" class="text-main text-chart">Bank Deposit by BR</text>
+
+  <!-- Column 3 Bottom: Bank Deposit by Nationality -->
+  <rect x="560" y="440" width="282" height="192" rx="14" class="wireframe-box" />
+  <text x="701" y="475" class="text-main text-chart">Bank Deposit by Nationality</text>
+
+  <!-- Column 4: Bank Deposit by Occupation (Full Height) -->
+  <rect x="858" y="212" width="287" height="420" rx="14" class="wireframe-box" />
+  <text x="1001" y="247" class="text-main text-chart">Bank Deposit by Occupation</text>
+
+</svg>

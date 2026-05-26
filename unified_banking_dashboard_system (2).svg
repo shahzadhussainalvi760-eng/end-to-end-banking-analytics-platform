@@ -1,0 +1,53 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#0F172A"/>
+  
+  <!-- Main Container -->
+  <rect x="20" y="20" width="1240" height="680" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+  
+  <!-- Top Navigation & Tab System -->
+  <g font-family="Inter, sans-serif" font-size="14" font-weight="700">
+    <text x="40" y="50" fill="#334155">HOME</text>
+    <rect x="100" y="25" width="140" height="40" rx="4" fill="#0F172A"/>
+    <text x="120" y="50" fill="#FFFFFF">LOAN ANALYSIS</text>
+    <text x="270" y="50" fill="#334155">DEPOSIT ANALYSIS</text>
+    <text x="420" y="50" fill="#334155">SUMMARY</text>
+  </g>
+  
+  <!-- Top Filter Bar - Increased height and width -->
+  <rect x="560" y="20" width="680" height="50" rx="4" fill="white" stroke="#334155"/>
+
+  <!-- Content Grid -->
+  <g transform="translate(40, 90)">
+    <!-- Main Banner Area -->
+    <rect x="0" y="0" width="1200" height="100" rx="4" fill="white" stroke="#334155"/>
+    
+    <!-- Row 1: Left Column -->
+    <rect x="0" y="120" width="280" height="120" rx="4" fill="white" stroke="#334155"/>
+    <text x="20" y="150" font-family="Inter" font-weight="700">Total Loan</text>
+    
+    <rect x="300" y="120" width="280" height="120" rx="4" fill="white" stroke="#334155"/>
+    <text x="320" y="150" font-family="Inter" font-weight="700">Bank Loan</text>
+    
+    <!-- Row 2: Left Column -->
+    <rect x="0" y="260" width="280" height="120" rx="4" fill="white" stroke="#334155"/>
+    <text x="20" y="290" font-family="Inter" font-weight="700">Business Lending</text>
+    
+    <rect x="300" y="260" width="280" height="120" rx="4" fill="white" stroke="#334155"/>
+    <text x="320" y="290" font-family="Inter" font-weight="700">CC Balance</text>
+    
+    <!-- Row 3: Left Column -->
+    <rect x="0" y="400" width="580" height="180" rx="4" fill="white" stroke="#334155"/>
+    <text x="20" y="430" font-family="Inter" font-weight="700">Bank Loan by Income Band</text>
+    
+    <!-- Middle Right Column -->
+    <rect x="600" y="120" width="300" height="260" rx="4" fill="white" stroke="#334155"/>
+    <text x="620" y="150" font-family="Inter" font-weight="700">Bank Loan by BR</text>
+    
+    <rect x="600" y="400" width="300" height="180" rx="4" fill="white" stroke="#334155"/>
+    <text x="620" y="430" font-family="Inter" font-weight="700">Bank Loan by Nationality</text>
+    
+    <!-- Far Right Column -->
+    <rect x="920" y="120" width="280" height="460" rx="4" fill="white" stroke="#334155"/>
+    <text x="940" y="150" font-family="Inter" font-weight="700">Bank Loan by Occupation</text>
+  </g>
+</svg>

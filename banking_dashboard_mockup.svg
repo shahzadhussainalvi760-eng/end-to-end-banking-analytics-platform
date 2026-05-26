@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+    <!-- Background -->
+    <!-- Uses a very light warm gray to match the presentation aesthetic of the image -->
+    <rect width="100%" height="100%" fill="#fcfafc" />
+
+    <!-- ============================================== -->
+    <!-- LEFT PANEL                                     -->
+    <!-- ============================================== -->
+
+    <!-- Graph Icon Group -->
+    <g id="dashboard-icon">
+        <!-- Light Blue Bars -->
+        <rect x="140" y="240" width="35" height="100" fill="#6bcaf0" />
+        <rect x="185" y="210" width="35" height="130" fill="#6bcaf0" />
+        <rect x="230" y="240" width="35" height="100" fill="#6bcaf0" />
+        <rect x="275" y="180" width="35" height="160" fill="#6bcaf0" />
+        
+        <!-- Dark Blue Trending Line -->
+        <path d="M 110 260 L 165 190 L 210 230 L 315 135" 
+              stroke="#167ec4" stroke-width="24" fill="none" 
+              stroke-linejoin="round" stroke-linecap="round" />
+              
+        <!-- Dark Blue Arrowhead -->
+        <polygon points="275,120 340,120 340,185" fill="#167ec4" />
+    </g>
+
+    <!-- Main Title -->
+    <text x="250" y="400" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900" fill="#111" text-anchor="middle" letter-spacing="1">BANKING DASHBOARD</text>
+
+    <!-- Navigation Buttons -->
+    <g font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">
+        <!-- Button 1: LOAN DEPOSIT -->
+        <rect x="55" y="445" width="180" height="60" fill="#0b52b5" />
+        <text x="145" y="480">LOAN DEPOSIT</text>
+
+        <!-- Button 2: DEPOSIT ANALYSIS -->
+        <rect x="255" y="445" width="180" height="60" fill="#0b52b5" />
+        <text x="345" y="480">DEPOSIT ANALYSIS</text>
+
+        <!-- Button 3: SUMMARY (Centered below) -->
+        <rect x="155" y="535" width="180" height="60" fill="#0b52b5" />
+        <text x="245" y="570">SUMMARY</text>
+    </g>
+
+
+    <!-- ============================================== -->
+    <!-- RIGHT PANEL                                    -->
+    <!-- ============================================== -->
+
+    <!-- Box Outlines -->
+    <g stroke="#111111" stroke-width="2.5" fill="#ffffff">
+        <!-- Top Empty Header Box -->
+        <rect x="490" y="60" width="670" height="45" />
+
+        <!-- Gender Filter Box -->
+        <rect x="490" y="135" width="670" height="100" />
+
+        <!-- 2x3 Grid Boxes -->
+        <!-- Row 1 -->
+        <rect x="490" y="255" width="325" height="140" />
+        <rect x="835" y="255" width="325" height="140" />
+        
+        <!-- Row 2 -->
+        <rect x="490" y="415" width="325" height="140" />
+        <rect x="835" y="415" width="325" height="140" />
+        
+        <!-- Row 3 -->
+        <rect x="490" y="575" width="325" height="140" />
+        <rect x="835" y="575" width="325" height="140" />
+    </g>
+
+    <!-- Right Panel Typography -->
+    <g font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#222222">
+        <!-- Gender Label -->
+        <text x="515" y="185">Gender</text>
+
+        <!-- Grid Labels (Centered horizontally within their boxes, pinned near the top) -->
+        <!-- Row 1 -->
+        <text x="652.5" y="295" text-anchor="middle">Total Clients</text>
+        <text x="997.5" y="295" text-anchor="middle">Total Loan</text>
+
+        <!-- Row 2 -->
+        <text x="652.5" y="455" text-anchor="middle">Total Deposit</text>
+        <text x="997.5" y="455" text-anchor="middle">Checking Accounts</text>
+
+        <!-- Row 3 -->
+        <text x="652.5" y="615" text-anchor="middle">Savings Accounts</text>
+        <text x="997.5" y="615" text-anchor="middle">Business Lending</text>
+    </g>
+</svg>
